@@ -3,7 +3,10 @@
 {% else %}
   <footer class="footer">
     <ul>
-      <li><a href="{{ site.base }}/">{{ site.name }}</a></li>
+      <li><a href="https://leancloud.cn/?ref=leancloud.rocks">leancloud.cn</a></li>
+      <li><a href="https://leancloud.cn/help.html?ref=leancloud.rocks">Need Help?</a></li>
+      <li><a href="https://status.leancloud.cn/?ref=leancloud.rocks">System Status</a></li>
+      <li><a href="https://blog.leancloud.cn/?ref=leancloud.rocks">Blog</a></li>
 
       {% if site.credits %}
         <li><a href="http://sparanoid.com/lab/amsf/" title="Almace Scaffolding">AMSF</a></li>
@@ -13,8 +16,6 @@
       {% if site.data.curtana.subscription %}
         <li><a href="{{ '/email-signup' | prepend: site.base }}/">Email</a></li>
       {% endif %}
-
-      <li><a href="{{ amsf_feed_url }}" title="Feed - Atom (The Atom Syndication Format)">Atom</a></li>
     </ul>
   </footer>
 {% endif %}
